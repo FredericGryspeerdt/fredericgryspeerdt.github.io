@@ -97,6 +97,7 @@ $('.row .col-md-6 .portfolio-item a').click(function() {
     $('.projects-gallery').addClass('hidden');
     $(itemID).removeClass('hidden');
     $('#videovivo').attr('src',vvSrc);
+    window.location.hash = itemID;
     return false;
 });
 
