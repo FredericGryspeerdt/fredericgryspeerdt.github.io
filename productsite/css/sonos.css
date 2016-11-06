@@ -1,0 +1,100 @@
+@font-face {
+    font-family: sonoshandbookpro-medium;
+    src: url(fonts/sonoshandbookpro-medium-webfont.woff);
+}
+
+@font-face {
+    font-family: sonoshandbookpro-regular;
+    src: url(fonts/sonoshandbookpro-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: sonoshandbookpro-bold;
+    src: url(fonts/sonoshandbookpro-bold-webfont.woff);
+}
+
+body {
+    font-family: sonoshandbookpro-regular;
+    font-weight: bold;
+}
+
+#links {
+    position: fixed;
+    top: 10px;
+    left: 25px;
+    z-index: 1000;
+    font-size: 1.5vw;
+}
+
+.col-md-12 > h1 {
+    font-size: 10vw;
+}
+
+.col-md-12 > h2 {
+    font-size: 3vw;
+}
+
+.col-md-6 > h2 {
+    font-size: 3vw;
+    color: black;
+}
+
+p {
+    font-size: 2vw;
+    color: rgb(102, 102, 102);
+}
+
+article > p {
+    font-size: 1.5vw;
+
+}
+
+article > h3 {
+    font-size: 2vw;
+    color: black;
+    text-align: left;
+}
+
+article {
+    margin-top: 5%;
+}
+
+#kenmerk_art > p {
+    color: #ebedf2;
+    text-align: left;
+}
+
+#specsSelector > li > a {
+    color: #000000;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+
+
+.videoControls {
+    width: 100%;
+    font-size: 30px;
+}
+
+.videoControls span, .videoControls div {
+    display: inline-block;
+    color: #999;
+}
+
+.btnMute, .btnFullscreen {
+    float: right;
+    padding-left: 20px;
+    margin-right: 20px;
+    color: #999;
+}
+
+.btnPlay {
+    padding-right: 20px;
+    margin-left: 20px;
+    color: #999;
+}
+
+.glyphicon:hover {
+    color: #555;
+}

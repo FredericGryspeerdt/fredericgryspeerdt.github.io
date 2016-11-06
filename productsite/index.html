@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SONOS - PLAYBAR</title>
+
+    <!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="features_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-14673695 {
+            visibility: hidden;
+        }
+    </style>
+    <!--Adobe Edge Runtime End-->
+
+    <!--Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/examples.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sonos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+    <style>
+
+        /* Style for our header texts
+        * --------------------------------------- */
+        h1 {
+            font-size: 5em;
+            font-family: arial, helvetica;
+            color: #fff;
+            margin: 0;
+        }
+
+        .intro p {
+            color: #fff;
+        }
+
+        /* Centered texts in each section
+        * --------------------------------------- */
+        .section {
+            text-align: center;
+        }
+
+        /* Overwriting styles for control arrows for slides
+        * --------------------------------------- */
+        .controlArrow.prev {
+            left: 50px;
+        }
+
+        .controlArrow.next {
+            right: 50px;
+        }
+
+        /* Bottom menu
+        * --------------------------------------- */
+        #infoMenu li a {
+            color: #fff;
+        }
+    </style>
+
+
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = { log: function () {
+        } };
+    </script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/sonos.js"></script>
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+//                anchors: ['Home', 'Introductie', 'Kenmerken', 'Specificaties', 'Foto', 'Familie', 'Video'],
+                anchors: ['Home', 'Introductie', 'Kenmerken', 'Foto', 'Video'],
+//                sectionsColor: ['#EEB22D', '#EBEDF2', '#7E8F7C', '#EEB22D', '#EBEDF2'],
+                sectionsColor: ['#EEB22D', '#EBEDF2', '#7E8F7C', '#EBEDF2'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['Home', 'Introductie', 'Kenmerken', 'Foto', 'Video'],
+                slidesNavigation: true
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div id="links">
+    <ul>
+        <li>
+            <a class="navbar-link" href="http://www.sonos.com/nl-be?r=1">SONOS</a>
+        </li>
+        <li>
+            <a href="http://www.sonos.com/shop/products/playbar">SHOP</a>
+        </li>
+    </ul>
+</div>
+
+<div id="fullpage">
+
+    <div class="section" id="home_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-uppercase">Playbar</h1>
+
+                    <h2>De soundbar voor muziekliefhebbers</h2>
+                    <!--<img class="img-responsive center-block" src="images/Playbar_front_big_new.png"/>-->
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <img width="100%" height="100%" class="img-responsive center-block"
+                         src="images/Playbar_front_big_new.png"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="scroll-om-te-beginnen" style="position: absolute; bottom: 10px;left: 40%; right: 40%">
+            <p>Scroll om te beginnen</p>
+
+            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+        </div>
+    </div>
+
+
+    <div class="section" id="intro_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h2>HiDef ontdekt HiFi</h2>
+                    <article>
+                        <h3>HiFi-GELUIDSKWALITEIT VOOR DE TELEVISIE</h3>
+
+                        <p>Het 9-speakerdesign van PLAYBAR overstelpt je huis met home cinema-geluid voor tv, internet,
+                            films en
+                            videogames.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>ALLE MUZIEK VAN DE WERELD</h3>
+
+                        <p>Met de PLAYBAR kun je draadloos alle muziek van de wereld afspelen, van je
+                            iTunes-bibliotheek, je favoriete
+                            muziekservices tot duizenden internetradiostations, radioprogramma's en podcasts.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>FLEXIBEL ONTWERP</h3>
+
+                        <p>PLAYBAR kan onder of boven de tv worden geplaatst. Je kunt 'm op een tv-meubel of console
+                            neerzetten, of
+                            horizontaal aan de muur bevestigen.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <img id="bandImage" class="img-responsive" src="images/Introductie_playbar.jpg"
+                         alt="Playbar mounted on wall">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section" id="kenmerken_section">
+        <div class="container">
+            <div class="row" style="position: absolute; top: 10px">
+                <div class="col-md-12">
+                    <ul id="specsSelector" class="nav nav-tabs">
+                        <li id="pointOne">
+                            <a>Eenvoudige installatie</a>
+                        </li>
+                        <li id="pointTwo">
+                            <a>Draadloos</a>
+                        </li>
+                        <li id="pointThree">
+                            <a>Universeel geluid</a>
+                        </li>
+                        <li id="pointFour">
+                            <a>Versterker</a>
+                        </li>
+                        <li id="pointFive">
+                            <a>Speakers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="kenmerk" class="col-md-4">
+                    <span id="results"></span>
+                </div>
+
+                <div class="col-md-8" style="position: relative; left: 50px">
+                    <!--<img class="img-responsive" src="images/Playbar3D_uit_elkaar_no_background.png"/>-->
+                    <div id="Stage" class="EDGE-14673695"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="section" id="specs_section">
+         <div class="container" style="height: 80%">
+
+             &lt;!&ndash;<ul class="nav nav-tabs">&ndash;&gt;
+    &lt;!&ndash;<li role="presentation" id="algemeen"><a href="#">Algemeen</a></li>&ndash;&gt;
+    &lt;!&ndash;<li role="presentation" id="Bediening"><a href="#">Bediening</a></li>&ndash;&gt;
+    &lt;!&ndash;<li role="presentation" id=""><a href="#">Ondersteunde apparaten</a></li>&ndash;&gt;
+    &lt;!&ndash;<li role="presentation"><a href="#">Muziek</a></li>&ndash;&gt;
+    &lt;!&ndash;<li role="presentation"><a href="#">Netwerken</a></li>&ndash;&gt;
+    &lt;!&ndash;</ul>&ndash;&gt;
+
+        </div>
+    </div>-->
+
+    <div class="section" id="foto_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slide">
+                        <img class="img-responsive center-block" src="images/Playbar_front_big_new.png"
+                             alt="Playbar front"/></div>
+                    <div class="slide"><img class="img-responsive center-block"
+                                            src="images/PlaybarAngle_highres_no_background.png"
+                                            alt="Playbar front"/></div>
+                    <div class="slide"><img class="img-responsive center-block"
+                                            src="images/Playbar3D_uit_elkaar_no_background.png" alt="Playbar 3D"/>
+                    </div>
+                    <!--<div class="slide"><img class="img-responsive center-block" src="images/PlaybarAngle_highres.jpg"
+                                            alt="Playbar angle"/></div>-->
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--<div class="section" id="familie_section">-->
+    <!--<div class="intro">-->
+    <!--<h1>Enjoy it</h1>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <div class="section" id="video_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <video width="100%" controls id="videoPlayer" poster="images/Sonos_Logo.jpg">
+                        <source src="images/SONOS%20PLAYBAR%20(NL).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
